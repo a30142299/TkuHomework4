@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+</form>
+<?php //主要英文可以字串可以轉換成字元陣列
+$str="i lose"; //$str[0]~$str[5]
+echo $str[4]; //s
+$str[4]='v';
+//var_dump($str[7]);
+$str[7]='u';
+echo $str;
+$std="您好";
+echo $std[0]; //中文會亂碼
+?>
+</body>
+</html>
