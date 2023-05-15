@@ -1,0 +1,15 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+</form>
+<?php
+$a=array(65,1.75,"Hello , 你好！","蘋果","香蕉",1);
+print_r($a);
+?>
+</body>
+</html>
