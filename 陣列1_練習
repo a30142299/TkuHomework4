@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+</form>
+<?php
+$a=array();
+$a[0] = 65;
+$a[1] = 1.75;
+$a[2] = "Hello , 你好！";
+$a["apple"]="蘋果";
+$a["banana"]="香蕉";
+$a["one"]=1;
+print_r($a);
+echo $a[2];
+echo $a["apple"];
+?>
+</body>
+</html>
