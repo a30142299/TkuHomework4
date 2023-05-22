@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>1.php</title>
+	<style type="text/css">
+</style>
+</head>
+<body>
+<?php
+$a = array (1=>"紅心",2=>"黑桃",3=>"方塊",4=>"梅花"); //用1~4對應
+$b=array(1=>"A",11=>"J",12=>"Q",13=>"K");
+$x=rand(1,4);
+$y=rand(1,13);
+
+echo$a[$x];
+echo($y>=2 && $y<=10?$y : $b[$y]); //填進去的順序可能不一樣
+?>
+</html>
